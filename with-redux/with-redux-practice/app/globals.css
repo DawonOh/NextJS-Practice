@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttonLayout {
+  @apply text-3xl text-[#704cb6] px-3 pb-2 bg-[#704cb6]/[.1] border-2 border-transparent rounded-sm;
+}
+
+.buttonLayout:hover,
+.buttonLayout:focus {
+  @apply border-[#704cb6]/[.4];
+}
+
+.buttonLayout:active {
+  @apply border-[#704cb6]/[.2];
+}
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
